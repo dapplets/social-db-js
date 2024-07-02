@@ -1,0 +1,21 @@
+{
+  "name": "social-db-js",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/big.js": "^6.2.2",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "big.js": "^6.2.1"
+  }
+}
